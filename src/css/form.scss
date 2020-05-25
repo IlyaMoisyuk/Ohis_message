@@ -1,0 +1,130 @@
+
+$ramka: 2px solid black;
+
+
+
+.Form-for-Liza{
+    display: flex;
+    flex-direction: column;
+    
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 0 30px;
+    box-sizing: border-box;
+    
+    label{
+        margin: 10px 0;
+
+        span{
+            display: block;
+        }
+
+        input{
+            border: none;
+            border-bottom: $ramka;
+            text-align: center;
+            width: 100%;
+            outline: none;
+            font-size: 18px;
+            padding: 5px;
+            box-sizing: border-box;
+        }
+
+        textarea{
+            width: 100%;
+            min-height: 300px;
+            border: $ramka;
+            padding: 5px;
+            font-size: 18px;
+            box-sizing: border-box;
+
+        }
+    }
+
+}
+
+
+.Send{
+    width: max-content;
+    margin: 20px auto;
+    font-size: 20px;
+    padding: 5px 10px;
+    
+
+}
+
+.menu{
+    display: flex;
+    position: absolute;
+    right: 100px;
+    top: 100px;
+    padding: 10px;
+    background-color: white;
+    flex-direction: column;
+    border-radius: 15px;
+    input{
+        margin: 10px 0;
+        border: 2px solid rgb(4, 128, 251);
+        padding: 10px 20px;
+        background-color: transparent;
+        border-radius: 5px;
+        font-size: 20px;
+        font-weight: 600;
+        color: rgb(4, 128, 251);
+        cursor: pointer;
+        outline: none;
+
+        &:hover{
+            background-color: rgb(4, 128, 251);
+            color: white;
+            transition: 0.5s;
+        }
+    }
+}
+
+.remove{
+    text-align: right;
+    margin-top: 40px;
+
+    span{
+        padding: 1px 10px;
+        font-size: 25px;
+        background-color: red;
+        color: white;
+        cursor: pointer;
+        border-radius: 50%;
+    }
+}
+
+.Lecture_label{
+
+
+    input,textarea{
+        margin-bottom: 20px;
+    }
+}
+
+.copuPast{
+    padding: 30px 0;
+    background-color: rgb(4, 128, 251);
+
+    input{
+        margin: 10px 0;
+        border: 2px solid white;
+        padding: 10px 20px;
+        background-color: transparent;
+        border-radius: 5px;
+        font-size: 20px;
+        font-weight: 600;
+        color: white;
+        cursor: pointer;
+        outline: none;
+
+        &:hover{
+            background-color: white;
+            color: rgb(4, 128, 251);
+            transition: 0.5s;
+        }
+    }
+
+}
