@@ -16,7 +16,8 @@ export default CSS = {
         fontSize: '25px',
         fontWeight: '600',
         lineHeight: '1',
-        textAlign: 'center'
+        textAlign: 'center',
+        padding: '10px 0 0 0'
     },
     logo: {
         backgroundColor: '#0480fb',
@@ -28,7 +29,8 @@ export default CSS = {
     titleHeader: {
         color: '#69707d',
         lineHeight: '1',
-        textAlign: 'center'
+        textAlign: 'center',
+        paddingTop: '0px'
     },
     lk: {
         textDecoration: 'none',
