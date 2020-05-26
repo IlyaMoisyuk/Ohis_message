@@ -9,7 +9,7 @@ function Header(props) {
         <tr>
 
             <td style={CSS.headerTd} align="left">
-                <img style={{ maxWidth: '100px' }} src="https://ohi-s.com/wp-content/uploads/2020/05/logo.png" />
+                <img style={{ maxWidth: '135px' }} src="https://ohi-s.com/wp-content/uploads/2020/05/logo.png" />
             </td>
             <td style={CSS.titleHeader} align="right">Стоматологический портал </td>
             <td align="right">
