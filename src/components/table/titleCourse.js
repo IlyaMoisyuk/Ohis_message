@@ -7,8 +7,7 @@ function TitleCourse(props) {
 
     return (
         <tr style={CSS.pad}>
-            <td colSpan="3" style={CSS.titleCourse}>
-                {props.text}
+            <td colSpan="3" style={CSS.titleCourse} dangerouslySetInnerHTML={{__html: props.text}}>
             </td>
         </tr>
     )

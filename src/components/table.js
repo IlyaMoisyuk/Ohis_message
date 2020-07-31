@@ -42,24 +42,24 @@ function Table() {
         <>
             {data !== {} ?
                 <>
-                    <table bgcolor='#0480fb' style={CSS.container} ref={table}>
+                    <table bgcolor='#E5E5E5' style={CSS.container} ref={table}>
                         <tbody>
                             <tr>
                                 <td>
                                     <center>
-                                        <table border="0" cellPadding="10" cellSpacing='0' bgcolor="#fff" style={CSS.firstTable}>
+                                        <table border="0" cellPadding="0" cellSpacing='0' bgcolor="#fff" style={CSS.firstTable}>
                                             <tbody>
                                                 <Header />
                                                 <FonImage img={data.image} />
                                                 <TitleCourse text={data.courseName} />
                                                 <AboutCourse text={data.aboutCourse} />
-                                                <TitleMoreProgramm text={data.titleCourse} />
+                                                {/* <TitleMoreProgramm text={data.titleCourse} />
                                                 {
                                                     data.lecture ?
                                                         data.lecture.map((el, key) => {
                                                             return <Lectures key={key} img={el.fotoLecture} cv={el.CVLecture} nameLecture={el.nameLecture} weibinars={el.lectureTopic} />
                                                         }) : ''
-                                                }
+                                                } */}
                                                 <Footer />
                                             </tbody>
                                         </table>
